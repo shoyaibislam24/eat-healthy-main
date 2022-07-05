@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    padding: 0px 80px;
+
+
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.50;
+
+}
+
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.link-button{
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    background-size: 150% auto;
+    box-shadow: 10px 10px 40px rgb(213, 236, 5));
+    cursor: pointer;
+    width: 180px ;
+    transition: all cubic-bezier(0.25, 0.8, 0.25, 1) ;
+
+    text-decoration: none;
+    background-image: linear-gradient(orange , tomato);
+    padding: 20px 10px;
+    border-radius: 30px;
+    color:white;
+    font-weight: 700px;
+
+}
+.link-button:hover{
+    box-shadow: 0 10px 20px rgb(236, 9, 9);
+}
+
+.second-section{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    padding: 60px 60px 0px 80px;
+    background-position: bottom;
+    
+}
+#second-image-dev{
+    text-align: center;
+    
+
+
+}
+
+.second-image{
+    width: 60%;
+    
+    margin: auto;
+}
+
+.recipie-section{
+    text-align: center;
+    padding: 50px 0px;
+
+
+}
+
+
+h2{
+    font-size: 40px;
+    color: #575757;
+    margin-bottom: 30px;
+}
+.details{
+    width: 700px;
+    margin: auto;
+}
+
+.info-box{
+    padding: 30px;
+    box-shadow: 8px;
+   
+}
+
+.one-third-box{
+    width: 33px;
+
+}
+
+.counter-section{
+    background-color: #fff;
+    box-shadow: 8px 10px 78px -25px #575757;
+    border-radius: 25px;
+    padding: 60px 0px;
+    margin-top: 100px;
+    color: black;
+}
+
+ footer{
+            text-align: center;
+            background-color: black;
+            padding: 80px 0px;
+        }
+        footer h3{
+            font-size: 30px;
+            color: white;
+            margin-bottom: 30px;
+            font-size: 35px;
+        }
+        footer p{
+            color: white;
+            font-size: 20px;
+        }
+        .one-third-box{
+            width: 33%;
+        }
+
+
+.info-box h3{
+    margin: 25px 0px 10px;
+}
